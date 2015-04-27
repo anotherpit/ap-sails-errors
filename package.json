@@ -1,0 +1,35 @@
+{
+  "name": "ap-sails-errors",
+  "version": "0.11.0",
+  "description": "AngularJS form × SailsJS errors",
+  "main": "ap-sails-errors.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anotherpit/ap-sails-errors.git"
+  },
+  "keywords": [
+    "angular",
+    "sails",
+    "forms",
+    "validation"
+  ],
+  "author": "anotherpit <anotherpit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anotherpit/ap-sails-errors/issues"
+  },
+  "homepage": "https://github.com/anotherpit/ap-sails-errors",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-should": "0.0.1",
+    "karma-spec-reporter": "0.0.19",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
